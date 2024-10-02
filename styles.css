@@ -1,0 +1,26 @@
+body{
+    font-family: "jost";
+}
+
+nav{
+    height: "100px";
+    background-color: #ff7f99;
+    color: white;
+}
+
+li{
+    list-style: none;
+    display: inline; 
+}
+
+#tituloPrincipal{
+    color: crimson;
+}
+
+#mainButton{
+    color: white;
+    background-color: #ffca41;
+    border-radius: 30%;
+    height: 30px;
+}
+
