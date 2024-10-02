@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: "jost";
 }
@@ -6,21 +10,30 @@ nav{
     height: "100px";
     background-color: #ff7f99;
     color: white;
+    font-size: 1.2rem;
 }
 
 li{
     list-style: none;
-    display: inline; 
+    display: inline;
+    padding: 20px;
 }
 
 #tituloPrincipal{
     color: crimson;
 }
 
-#mainButton{
+.mainButton{
     color: white;
     background-color: #ffca41;
-    border-radius: 30%;
-    height: 30px;
+    border-radius: 10%;
+    padding: 20px;
+    font-size: 1.2rem;
+
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
 }
 
