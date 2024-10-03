@@ -24,23 +24,13 @@ li{
 }
 
 main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     height: 500%;
-    display: block;
-}
-
-#navUl{
-    display:inline;
-}
-
-#logoNav{
-    height: 100px;
-    width: 150px;
-    display:inline;
-}
-
-#tituloPrincipal{
-    color: crimson;
+    padding-left: 100px;
+    
 }
 
 .mainButton{
@@ -67,6 +57,29 @@ main{
 }
 
 #contenedorPrincipal{
-    width: 25%;
-    background-color: aqua;
+    width: 50%;
+    height: 300px;
+    padding-right: 100px;
+    text-align: center;
+    background-color: white;
+}
+
+#logoNav{
+    height: 100px;
+    width: 150px;
+    display:inline;
+}
+
+#tituloPrincipal{
+    color: crimson;
+    font-size: 400%;
+}
+
+#pPrincipalLeft {
+    text-align: left;
+    padding-left: 140px;
+}
+
+#Equipo{
+
 }
