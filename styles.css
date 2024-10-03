@@ -11,7 +11,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    height: 110px;
+    height: 170px;
     background-color: #ff7f99;
     color: white;
     font-size: 1.2rem;
@@ -30,7 +30,8 @@ main{
     width: 100%;
     height: 500%;
     padding-left: 100px;
-    
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .mainButton{
@@ -39,12 +40,22 @@ main{
     border-radius: 10%;
     padding: 20px;
     font-size: 1.2rem;
-
     border: none;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
 
+.imgPerson{
+    border-radius: 50%;
+    width: 300px; /* Ajustar */
+    height: 300px;
+    padding-top: 0px; /* Ajustar */
+}
+
+.logoLinkedin{
+    width: 140px;
+    height: 140px;
 }
 
 #contenedorImagenHero{
@@ -56,6 +67,9 @@ main{
     display: flex;
 }
 
+#imagenHero{
+    padding-left: 100px;
+}
 #contenedorPrincipal{
     width: 50%;
     height: 300px;
@@ -65,9 +79,8 @@ main{
 }
 
 #logoNav{
-    height: 100px;
-    width: 150px;
-    display:inline;
+    height: 150px;
+    width: 200px;
 }
 
 #tituloPrincipal{
@@ -77,9 +90,27 @@ main{
 
 #pPrincipalLeft {
     text-align: left;
-    padding-left: 140px;
+    padding-left: 260px;
 }
 
 #Equipo{
-
+    background-color: #ff7f99;
 }
+
+#Equipo ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+
+#Equipo li{
+    list-style: none;
+    margin: 20px;
+    text-align: center;
+}
+
+#Equipo h3{
+    color: white;
+}
+
