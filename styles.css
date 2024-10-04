@@ -53,13 +53,21 @@ main{
     padding-top: 0px; 
 }
 
-#imagenHeroPerson{
-    border-radius: 50%;
+.jobTitle{
+    font-size: 2rem;
 }
-
 .logoLinkedin{
     width: 140px;
     height: 140px;
+}
+
+main .logoLinkedin{
+    width: 180px;
+    height: 180px; 
+}
+
+#imagenHeroPerson{
+    border-radius: 50%;
 }
 
 #contenedorImagenHero{
@@ -111,15 +119,18 @@ main{
     padding-left: 260px;
     */
     margin-right: 0;
+    width: 90%;
+    text-align: justify;
+    font-size: 1.3rem;
+    margin-top: 50px;
 }
 
-#principalLeft {
-    text-align: left;
-    width: 100%;
-    padding-left: 0;
-    margin-right: 0;
+#logoiButton{
+    display: flex;
+    align-items: center; /* Vertically centers elements */
+    justify-content: center; /* Horizontally centers elements (optional) */
+    height: 100vh; /* Optional: to center elements in full viewport height */
 }
-
 
 #Equipo{
     background-color: #ff7f99;
